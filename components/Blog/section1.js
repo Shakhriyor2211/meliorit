@@ -4,7 +4,7 @@ import Link from "next/link";
 function Section1() {
   return (
     <>
-      <section className="max-w-2xl lg:max-w-7xl mx-auto flex flex-col mt-24 lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 justify-between lg:mt-44">
+      <section className="max-w-2xl lg:max-w-7xl mx-auto flex flex-col mt-24  lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 justify-between lg:mt-44">
         <div className="space-y-12">
           <img className="" src="/image/blog/blog-name.png" alt="blog" />
           <div className="space-y-6 max-w-xl">

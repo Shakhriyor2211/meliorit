@@ -23,7 +23,7 @@ export default function Slider() {
           <a className="text-sm text-teal-400">Какую модель выбрать?</a>
         </Link>
       </div>
-      <div className="flex items-center space-x-8 px-4">
+      <div className="flex items-center gap-x-8 px-4">
         <div
           className={`swiper-button-prev cursor-pointer ${
             arrowPrev ? "stroke-gray-500" : "stroke-gray-200"

@@ -3,7 +3,7 @@ import Button from "../button";
 import Organization from "../organization";
 function Section3() {
   return (
-    <section className="flex flex-col items-center xl:items-stretch max-w-8xl mx-auto px-4 gap-y-20 mb-12">
+    <section className="flex flex-col items-center xl:items-stretch max-w-8xl mx-auto px-4  mb-12">
       <Part1 />
       <Part2 />
       <Organization />
@@ -50,7 +50,7 @@ function Part1() {
 }
 function Part2() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 my-12">
       <p className="text-3xl font-bold">
         Что представляет собой межсетевой экран следующего поколения?
       </p>

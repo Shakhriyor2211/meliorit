@@ -19,7 +19,12 @@ function Header() {
     <header className="px-4 text-zinc-800 shadow-sm bg-white shadow-gray-400 fixed inset-x-0 z-50">
       <div className="flex items-center space-x-4 max-w-7xl mx-auto">
         <div className="block lg:hidden">
-          <div className="cursor-pointer w-7 h-7 select-none" onClick={menu}>
+          <div
+            className={`cursor-pointer w-7 h-7 select-none ${
+              visible ? "visible" : "invisible"
+            }`}
+            onClick={menu}
+          >
             {openMenu}
           </div>
           <div
@@ -52,7 +57,9 @@ function Header() {
                 </div>
               </div>
               <div
-                className="cursor-pointer w-6 h-6 select-none"
+                className={`cursor-pointer w-6 h-6 select-none ${
+                  !visible ? "visible" : "invisible"
+                }`}
                 onClick={menu}
               >
                 {closeMenu}

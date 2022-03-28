@@ -156,7 +156,7 @@ function Part2(props) {
 
 function Part3() {
   return (
-    <div className="flex space-x-12 max-w-6xl justify-center">
+    <div className="flex lg:space-x-12 max-w-6xl justify-center">
       <img
         className="hidden lg:block"
         src="/image/about/message.png"
