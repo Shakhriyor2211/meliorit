@@ -18,7 +18,7 @@ function Section2() {
               <Sphere text={"IT-General"} />
             </div>
             <Image
-              src="/image/blog/group 3.png"
+              src="/image/blog/group.png"
               alt="blog"
               width={"300"}
               height={"300"}
