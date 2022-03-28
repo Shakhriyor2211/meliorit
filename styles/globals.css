@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 30xp;
+  height: 30px;
+}
+@media only screen and (max-width: 1300px) {
+  .swiper,
+  .btn {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .swiper,
+  .btn {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .swiper,
+  .btn {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .swiper-button-next svg,
+  .swiper-button-prev svg {
+    display: none;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+a,
+button {
+  user-select: none;
+}
