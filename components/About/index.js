@@ -130,7 +130,7 @@ export default Section;
 function Part1(props) {
   return (
     <div className="flex flex-col items-center space-y-6">
-      <Image src={props.imageURL} width={180} height={160} alt="about" />
+      <Image src={props.imageURL} width={"200"} height={"150"} alt="about" />
       <div className="space-y-3">
         <p className="font-bold text-lg text-center">{props.title}</p>
         <p className="text-center">{props.text}</p>
